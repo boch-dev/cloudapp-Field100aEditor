@@ -10,8 +10,30 @@
          "text": "CNMARC 100$a 快速编辑器"
       }
    ],
-   "description": "A quick editor to edit field 100 for CNMARC",
-   "author": "boch",
+   "description": [
+      {
+         "lang": "en",
+         "text": "A quick editor to edit field 100 for CNMARC, providing fields for each position and drop down menus for controlled values"
+      },
+      {
+         "lang": "zh",
+         "text": "CNMARC 100$a 快速编辑器，用户通过更改下拉列表选项进行快速编辑100$a字段的内容"
+      }
+   ],
+   "subtitle": [
+      {
+         "lang": "en",
+         "text": "A quick editor to edit field 100 for CNMARC"
+      },
+      {
+         "lang": "zh",
+         "text": "CNMARC 100$a 快速编辑器"
+      }
+   ],
+   "author": "Ex Libris China",
+   "entities": [
+      "BIB_MMS"
+   ],
    "icon": {
       "type": "font",
       "value": "fa fa-pencil-square-o"

@@ -1,4 +1,7 @@
 <div *ngIf="bib; else nobib">
+  <div class="eca-actions">
+    <button mat-flat-button type="button" color="primary" (click)="updateField100()" [disabled]="!formChanged">{{'i18n.Save'|translate}}</button>
+  </div>
   <h1 class="bold">{{ bib.title }} [{{ bib.mms_id }}]</h1>
   <form [formGroup]="form">
       <mat-form-field>
@@ -91,12 +94,11 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <span class="margin"><button mat-flat-button type="button" color="primary" (click)="updateField100()" [disabled]="!formChanged">{{'i18n.Save'|translate}}</button></span>
-  </form>
+</form>
 </div>
 <ng-template #nobib>      
   <h1 class="tip" translate>i18n.NoBibTip</h1>
 </ng-template>
-<div class="loading-shade" *ngIf="loading">
+<div class="loading-shade" *ngIf="running">
   <mat-spinner diameter="50"></mat-spinner>
 </div>
