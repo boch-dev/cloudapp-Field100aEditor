@@ -23,11 +23,11 @@
    "subtitle": [
       {
          "lang": "en",
-         "text": "A quick editor to edit field 100 for CNMARC, providing fields for each position and drop down menus for controlled values"
+         "text": "A quick editor to edit field 100 for CNMARC and UNIMARC"
       },
       {
          "lang": "zh",
-         "text": "CNMARC 100$a 快速编辑器，用户通过更改下拉列表选项进行快速编辑100$a字段的内容"
+         "text": "快速编辑 CNMARC/UNIMARC 100$a字段的内容"
       }
    ],
    "author": "Ex Libris China",
